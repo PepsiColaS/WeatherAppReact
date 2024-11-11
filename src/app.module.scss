@@ -1,0 +1,246 @@
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+h4{
+    margin: 0;
+}
+
+.layout{
+    display: flex;
+}
+
+.leftBar{
+    width: 65%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.leftBlockContent{
+    height: 100%;
+    margin-left : 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightBarContent{
+    margin-top: 9%;
+    margin-left: 13%;
+}
+
+.rightBar{
+    width: 35%;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    border-left: 3px solid #6a8090;
+}
+
+.logo{
+    margin-top: 4%;
+    // max-width: 100px;
+    // max-height: 100px;
+}
+
+.leftBot{
+    margin-bottom: 15%;
+    display: flex;
+    // flex-wrap: wrap;
+}
+
+h2{
+    margin: 0;
+}
+
+.textBlock{
+    margin-top: auto;
+}
+
+.temp{
+    max-height: 200px;
+    font-size: 170px;
+    font-weight: 400;
+}
+
+.place{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.date{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cloud{
+    height: 80px;
+    width: 80px;
+    margin-top: auto;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.leftBarContent{
+    margin-top: 4%;
+}
+
+.search{
+    display: flex;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin-bottom: 10%;
+
+}
+
+.search img{
+    margin-left: auto;
+    margin-bottom: 3%;
+    margin-right: 4%;
+    width: 28px;
+    height: 28px;
+}
+
+.search img:hover{
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+    color: white;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    height:30px;
+    width: 250px;
+    // border-bottom: 1px solid white;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder
+{
+  color: #c7cfd4;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+.tempImg{
+    width: 14px;
+    height: 26px;
+}
+
+.humadityImg{
+    width: 18px;
+    height: 24px;
+}
+
+.cloudImg{
+    width: 22px;
+    height: 22px;
+}
+
+.windImg{
+    width: 24px;
+    height: 19px;
+}
+
+.weatherDetails{
+    margin-bottom: 8%;
+    font-weight: 600;
+}
+
+.concret{
+    margin-bottom: 8%;
+    font-weight: 600;
+}
+
+.gradus{
+    margin-left: auto;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.flex h4{
+    font-weight: 350;
+    font-size: 18px;
+}
+
+.timeBlock{
+    margin-top: 15%;
+    // width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border-top: 1px solid white;
+}
+
+.arrow{
+    width: 45px;
+    height: 45px;
+    filter: invert(100%);
+    margin-top: 3%;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.firstArrow{
+    transform: rotate(180deg);
+    // margin-right: 60%;
+    margin-right: 3%;
+}
+
+.secondArrow{
+    margin-left: auto;
+    margin-right: 20%;
+    margin-left: 3%;
+}
+
+.detailsComponent{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsComponent img{
+    width: 25px;
+    height: 20px;
+}
+
+.detailsComponent h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 1630px){
+    .detailsComponent{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 1318px){
+    .timeBlock h4{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1200px){
+    .firstArrow{
+        margin-right: 0;
+    }
+    .secondArrow{
+        margin-left: 0;
+        // margin-right: 2%;
+    }
+}
